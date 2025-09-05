@@ -14,10 +14,12 @@
     "plugins": [
       {
         "name": "next"
-      }
+      },
     ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@oil-drilling/ui": ["../../libs/ui/src/index.ts"]
     },
     "outDir": "dist",
     "rootDir": "src",
