@@ -5,6 +5,12 @@
   "references": [
     {
       "path": "./apps/oil-drilling"
+    },
+    {
+      "path": "./libs/ui"
+    },
+    {
+      "path": "./libs/api"
     }
   ]
 }

@@ -1,10 +1,68 @@
-# OilDrilling
+# Oil Drilling AI Intelligence Platform
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+An intelligent AI-powered platform for oil and gas drilling data analysis, featuring real-time data visualization, AI chatbot assistance, and comprehensive well monitoring capabilities.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/next?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+## Features
+
+- **Well Data Visualization**: Interactive charts showing rock composition, DT (Delta-T), and GR (Gamma Ray) data
+- **AI Chatbot Integration**: OpenAI-powered assistant for drilling data analysis and interpretation
+- **File Upload & Processing**: Excel file upload with automatic data parsing and visualization
+- **Responsive Design**: Works across desktop, tablet, and mobile devices
+- **Real-time Analysis**: Dynamic data processing and visualization
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+- OpenAI API key (for AI chatbot features)
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the `apps/oil-drilling` directory:
+   ```env
+   # OpenAI API Configuration
+   OPENAI_API_KEY=your_openai_api_key_here
+   
+   # Cloudinary Configuration (for file uploads)
+   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   NEXT_PUBLIC_CLOUDINARY_API_KEY=your_cloudinary_api_key
+   NEXT_PUBLIC_CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   ```
+
+4. Start the development server:
+   ```bash
+   npx nx dev oil-drilling
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Usage
+
+### Uploading Data
+1. Click the "Upload" button
+2. Select an Excel file with drilling data
+3. The system will automatically parse and visualize the data
+
+### AI Chatbot
+1. Use the chatbot on the right side to ask questions about your drilling data
+2. Ask about rock composition, DT/GR values, or drilling parameters
+3. The AI will provide technical insights based on your uploaded data
+
+### Data Visualization
+- **Rock Composition**: Stacked area chart showing percentage of different rock types
+- **DT (Delta-T)**: Line chart showing sonic transit time measurements
+- **GR (Gamma Ray)**: Line chart showing natural radioactivity measurements
 
 ## Finish your CI setup
 
