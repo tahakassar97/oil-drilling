@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@oil-drilling/ui": "file:../../libs/ui",
     "@types/xlsx": "^0.0.35",
     "chart.js": "^4.5.0",
     "class-variance-authority": "^0.7.1",

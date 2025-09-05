@@ -19,7 +19,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@oil-drilling/ui": ["../../libs/ui/src/index.ts"]
+      "@oil-drilling/ui": ["../../libs/ui/src/index.ts"],
+      "@oil-drilling/ui/*": ["../../libs/ui/src/*"]
     },
     "outDir": "dist",
     "rootDir": "src",
