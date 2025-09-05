@@ -6,7 +6,7 @@
     "dev": "nx serve oil-drilling",
     "build": "nx build oil-drilling",
     "start": "nx serve oil-drilling",
-    "vercel-build": "nx build oil-drilling"
+    "vercel-build": "cd apps/oil-drilling && npm install && npm run build"
   },
   "private": true,
   "dependencies": {
