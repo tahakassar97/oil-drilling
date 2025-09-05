@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nx serve oil-drilling",
     "build": "nx build oil-drilling",
-    "start": "nx serve oil-drilling"
+    "start": "nx serve oil-drilling",
+    "vercel-build": "nx build oil-drilling"
   },
   "private": true,
   "dependencies": {
@@ -32,7 +33,7 @@
     "@nx/eslint-plugin": "21.4.1",
     "@nx/jest": "21.4.1",
     "@nx/js": "21.4.1",
-    "@nx/next": "21.4.1",
+    "@nx/next": "^21.4.1",
     "@nx/workspace": "21.4.1",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.6.0",
