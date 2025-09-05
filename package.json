@@ -2,7 +2,11 @@
   "name": "@oil-drilling/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx serve oil-drilling",
+    "build": "nx build oil-drilling",
+    "start": "nx serve oil-drilling"
+  },
   "private": true,
   "dependencies": {
     "@types/xlsx": "^0.0.35",
